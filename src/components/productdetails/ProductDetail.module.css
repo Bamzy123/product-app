@@ -1,0 +1,67 @@
+.container {
+  max-width: 600px;
+  margin: 48px auto;
+  padding: 32px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #4a4e69;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.15s;
+}
+
+.backLink:hover {
+  color: #22223b;
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #22223b;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  margin: 0 auto 18px auto;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #f8f9fa;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.price {
+  font-size: 1.4rem;
+  color: #4a4e69;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #343a40;
+  line-height: 1.6;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.loading,
+.notFound {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #4a4e69;
+  margin-top: 60px;
+}
